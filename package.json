@@ -1,0 +1,44 @@
+{
+  "name": "markdown-python-repl-syntax",
+  "displayName": "Markdown Python REPL syntax support",
+  "description": "Syntax highlight for ```python-repl",
+  "repository": "https://github.com/grigoryvp/vscode-markdown-python-repl-syntax",
+  "icon": "icon.png",
+  "version": "1.0.0",
+  "publisher": "grigoryvp",
+  "license": "SEE LICENSE IN README.md",
+  "engines": {
+    "vscode": ">=1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "scripts": {
+    "build": "vsce package --out ./out/extension.vsix",
+    "build-pre-release": "vsce package --pre-release --out ./out/extension.vsix",
+    "publish": "open-cli https://marketplace.visualstudio.com/manage"
+  },
+  "files": [
+    "./src/*.json"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "python-repl-markdown-injection"
+    }],
+    "grammars": [{
+      "language": "python-repl-markdown-injection",
+      "scopeName": "markdown.python-repl.codeblock",
+      "injectTo": [
+        "text.html.markdown"
+      ],
+      "embeddedLanguages": {
+        "meta.embedded.block.python-repl": "python-repl"
+      },
+      "path": "./src/python-repl-markdown-injection.tmLanguage.json"
+    }]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0",
+    "open-cli": "^7.2.0"
+  }
+}
