@@ -5,13 +5,14 @@ Python REPL syntax highlight support for markdown fenced code blocks. Use
 will look like with different color themes:
 
 ### Light+ color theme
-![Light+ color theme](./doc/light_plus.png)
+<img src="https://raw.githubusercontent.com/grigoryvp/vscode-markdown-python-repl-syntax/master/doc/light_plus.png" height="256">
+
 
 ### Dark+ color theme
-![Dark+ color theme](./doc/dark_plus.png)
+<img src="https://raw.githubusercontent.com/grigoryvp/vscode-markdown-python-repl-syntax/master/doc/dark_plus.png" height="256">
 
 ### grigoryvp memory color theme
-![grigoryvp memory color theme](./doc/memory_plus.png)
+<img src="https://raw.githubusercontent.com/grigoryvp/vscode-markdown-python-repl-syntax/master/doc/memory.png" height="256">
 
 ## License
 
