@@ -7,12 +7,18 @@ will look like with different color themes:
 ### Light+ color theme
 <img src="https://raw.githubusercontent.com/grigoryvp/vscode-markdown-python-repl-syntax/master/doc/light_plus.png" height="256">
 
-
 ### Dark+ color theme
 <img src="https://raw.githubusercontent.com/grigoryvp/vscode-markdown-python-repl-syntax/master/doc/dark_plus.png" height="256">
 
 ### grigoryvp memory color theme
 <img src="https://raw.githubusercontent.com/grigoryvp/vscode-markdown-python-repl-syntax/master/doc/memory.png" height="256">
+
+Both highlightjs "python-repl" and linguist "pycon" language ids can be used:
+
+```pycon
+>>> print("Thank you Łukasz for pointing this out 😊")
+'Thank you Łukasz for pointing this out 😊'
+```
 
 ## License
 

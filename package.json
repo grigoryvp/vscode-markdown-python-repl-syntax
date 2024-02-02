@@ -4,7 +4,7 @@
   "description": "Syntax highlight for ```python-repl",
   "repository": "https://github.com/grigoryvp/vscode-markdown-python-repl-syntax",
   "icon": "icon.png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "grigoryvp",
   "license": "SEE LICENSE IN README.md",
   "engines": {
