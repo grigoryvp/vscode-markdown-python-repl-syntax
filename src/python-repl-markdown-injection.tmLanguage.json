@@ -2,6 +2,7 @@
   "comment": [
     "https://stackoverflow.com/a/76239666/69882"
   ],
+  "scopeName": "markdown.python-repl.codeblock",
   "fileTypes": [],
   "injectionSelector": "L:text.html.markdown",
   "patterns": [{
@@ -52,6 +53,5 @@
       "end": "$",
       "name": "string"
     }
-  },
-  "scopeName": "markdown.python-repl.codeblock"
+  }
 }
